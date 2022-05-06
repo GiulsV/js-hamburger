@@ -12,7 +12,7 @@
 
 
 
-document.querySelector("i.fa-bars").addEventListener("click", 
+document.querySelector(".header-right .fa-bars").addEventListener("click", 
    
     function () {
    
