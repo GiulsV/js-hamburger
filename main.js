@@ -12,9 +12,9 @@
    
 document.querySelector(".fa-bars").addEventListener("click", 
    
-function () {
+    function () {
    
-    document.querySelector(".hamburger-menu").classList.toggle("active");
+        document.querySelector(".hamburger-menu").classList.toggle("active");
    
     }
 );
