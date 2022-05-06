@@ -9,8 +9,10 @@
     // .addEventListener() aggancia un funzione che sarà chiamata quando accade un evento, in questo caso "click"
     
     // la funzione richiama su .hamburger-menu .classList (restituisce i nomi delle classi CSS associate all’elemento)
-   
-document.querySelector(".fa-bars").addEventListener("click", 
+
+
+
+document.querySelector("i.fa-bars").addEventListener("click", 
    
     function () {
    
@@ -21,7 +23,7 @@ document.querySelector(".fa-bars").addEventListener("click",
 
 // Nascondere il menù principale:
 
-document.querySelector(".fa-times").addEventListener("click", 
+document.querySelector(".close").addEventListener("click", 
    
     function () {
     
